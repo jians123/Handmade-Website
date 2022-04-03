@@ -21,28 +21,28 @@ function setup() {
 }
   
 function draw() {
-    if(mouseX < width/2){
-        state = 1;
-    }else{
-        state = 2;
-    }
+//     if(mouseX < width/2){
+//         state = 1;
+//     }else{
+//         state = 2;
+//     }
 
-    if(state == 1){
-        if(alpha_left < 100){
-            alpha_left += 2;
-        }
-        if(alpha_right > 0){
-            alpha_right -= 2;
-        }
-    }
-    else if(state == 2){
-        if(alpha_right < 100){
-            alpha_right += 2;
-        }
-        if(alpha_left > 0){
-            alpha_left -= 2;
-        }
-    }
+//     if(state == 1){
+//         if(alpha_left < 100){
+//             alpha_left += 2;
+//         }
+//         if(alpha_right > 0){
+//             alpha_right -= 2;
+//         }
+//     }
+//     else if(state == 2){
+//         if(alpha_right < 100){
+//             alpha_right += 2;
+//         }
+//         if(alpha_left > 0){
+//             alpha_left -= 2;
+//         }
+//     }
 
 
 
