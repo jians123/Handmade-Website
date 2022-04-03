@@ -36,10 +36,10 @@ function setup() {
   }
   leafs[0] = new leaf();
 
-  myfont = loadFont('DavidLibre-Medium.ttf');
-  textFont(myfont);
+  //myfont = loadFont('DavidLibre-Medium.ttf');
+  //textFont(myfont);
 
-  song.play();
+  //song.play();
 }
 
 function draw() {
