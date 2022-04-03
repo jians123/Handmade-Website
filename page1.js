@@ -9,15 +9,15 @@ let myfont;
 let sound;
 
 function preload(){
-    bgImage = loadImage("/image/main_2.png");
-    myfont = loadFont('DavidLibre-Medium.ttf');
-    song = loadSound('/assets/bg0.mp3');
+    //bgImage = loadImage("/image/main_2.png");
+    //myfont = loadFont('DavidLibre-Medium.ttf');
+    //song = loadSound('/assets/bg0.mp3');
 }
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    textFont(myfont);
-    song.play();
+    //textFont(myfont);
+    //song.play();
 }
   
 function draw() {
@@ -46,7 +46,7 @@ function draw() {
 
 
 
-    image(bgImage,0,0,width,height);
+    //image(bgImage,0,0,width,height);
     noStroke();
     fill(255,100,0,alpha_left);
     rect(0,0,width/2,height);
