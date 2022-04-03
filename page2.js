@@ -18,7 +18,7 @@ let myfont;
 let sound;
 
 function preload() {
-  //song = loadSound('/assets/bg1.mp3');
+  song = loadSound('/assets/bg1.mp3');
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -39,7 +39,7 @@ function setup() {
   //myfont = loadFont('DavidLibre-Medium.ttf');
   //textFont(myfont);
 
-  //song.play();
+  song.play();
 }
 
 function draw() {
