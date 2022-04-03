@@ -3,7 +3,7 @@ let myfont;
 
 let sound;
 function preload() {
-    song = loadSound('/assets/bg0.mp3');
+    //song = loadSound('/assets/bg0.mp3');
 }
 
 function setup() {
@@ -11,9 +11,9 @@ function setup() {
 	noiseDetail(8, 0.25);
 	
     
-    myfont = loadFont('DavidLibre-Medium.ttf');
+    //myfont = loadFont('DavidLibre-Medium.ttf');
     
-    song.play();
+    //song.play();
 }
 
 function mousePressed(){
