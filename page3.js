@@ -19,7 +19,7 @@ let myfont;
 
 let sound;
 function preload() {
-    song = loadSound('/assets/bg2.mp3');
+    //song = loadSound('/assets/bg2.mp3');
 }
 
 function setup() {
@@ -31,10 +31,10 @@ function setup() {
         fireflys.push(f);
     }
 
-    myfont = loadFont('DavidLibre-Medium.ttf');
-    textFont(myfont);
+    //myfont = loadFont('DavidLibre-Medium.ttf');
+    //textFont(myfont);
 
-    song.play();
+   // song.play();
 }
 
 function draw() {
