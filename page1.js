@@ -47,11 +47,11 @@ function draw() {
 
 
     //image(bgImage,0,0,width,height);
-    noStroke();
-    fill(255,100,0,alpha_left);
-    rect(0,0,width/2,height);
+    //noStroke();
+    //fill(255,100,0,alpha_left);
+    //rect(0,0,width/2,height);
 
 
-    fill(0,250,100,alpha_right);
-    rect(width/2,0,width/2,height);
+    //fill(0,250,100,alpha_right);
+    //rect(width/2,0,width/2,height);
 }
