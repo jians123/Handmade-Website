@@ -9,13 +9,13 @@ let alpha_right = 0;
 let sound;
 
 function preload(){
-    bgImage = loadImage("/image/main_2.png");
-    song = loadSound('/assets/bg1.mp3');
+    //bgImage = loadImage("/image/main_2.png");
+    //song = loadSound('/assets/bg1.mp3');
 }
 
 function setup() {
     createCanvas(innerWidth, innerHeight);
-    song.play();
+    //song.play();
 }
   
 function draw() {
