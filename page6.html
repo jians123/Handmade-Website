@@ -20,12 +20,13 @@
 
   </head>
   <body>
+    <audio id="clickSound" src="./assets/click.wav" preload="auto"></audio>
     <div id = "head2">
-      <a href="page4.html"><h1>Go Ahead</h1></a>
+      <button id = "startIcon"  onmousedown = "document.getElementById('clickSound').play();" onmouseup = "window.location.href='page4.html';">Go Ahead</button>
     </div>
 
     <div id = "other2">
-      <a href="page2.html"><h1>See Another Road</h1></a>
+      <button id = "startIcon"  onmousedown = "document.getElementById('clickSound').play();" onmouseup = "window.location.href='page2.html';">See Another Road</button>
     </div>
 
     <div id = "quit">

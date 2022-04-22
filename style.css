@@ -180,3 +180,21 @@ li {
   font-size: 20px;
 }
 
+
+#startIcon {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  color: black;
+  z-index: 2;
+  background-color: blanchedalmond; 
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 20px;
+} 
+#startIcon:hover {background-color: gainsboro}
+
+#startIcon:active {
+  background-color: gainsboro;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

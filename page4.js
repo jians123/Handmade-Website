@@ -1,19 +1,10 @@
 let myfont;
-
-
 let sound;
-function preload() {
-    //song = loadSound('/assets/bg0.mp3');
-}
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	noiseDetail(8, 0.25);
-	
-    
-    //myfont = loadFont('DavidLibre-Medium.ttf');
-    
-    //song.play();
+	textFont('Georgia');
 }
 
 function mousePressed(){
