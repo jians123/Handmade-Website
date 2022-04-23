@@ -34,7 +34,8 @@ function setup() {
     bg.fill(240, 50);
     bg.rect(x, y, s, s);
   }
-  leafs[0] = new leaf();
+  leafs[0] = new leaf();	
+textFont('Georgia');
 
   //myfont = loadFont('DavidLibre-Medium.ttf');
   //textFont(myfont);
