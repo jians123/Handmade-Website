@@ -30,7 +30,7 @@ function setup() {
         let f = new firefly();
         fireflys.push(f);
     }
-
+textFont('Georgia');
     //myfont = loadFont('DavidLibre-Medium.ttf');
     //textFont(myfont);
 
