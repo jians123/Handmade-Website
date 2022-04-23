@@ -22,15 +22,16 @@
   <audio controls autoplay>
     <source src="./assets/bg1.mp3" type="audio/mpeg">
   </audio>
+  <audio id="clickSound" src="./assets/click.wav" preload="auto"></audio>
   <body>
     <div id = "road1">
-      <a href="page2.html"><h1>Road 1</h1></a>
+      <button id = "startIcon"  onmousedown = "document.getElementById('clickSound').play();" onmouseup = "window.location.href='page2.html';">Road 1</button>
       <h2 id = "poem1">Two roads diverged in a yellow wood,  
       <br>And sorry I could not travel boths</h2>   
     </div>
 
     <div id = "road2">
-      <a href="page3.html"><h1>Road 2</h1></a>
+      <button id = "startIcon"  onmousedown = "document.getElementById('clickSound').play();" onmouseup = "window.location.href='page3.html';">Road 2</button>
       <h2 id = "poem2">And be one traveler, long I stood
       <br>And looked down one as far as I could
       <br>To where it bent in the undergrowth;</h2>  
